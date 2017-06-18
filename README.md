@@ -73,19 +73,20 @@ $ head -n 12404 data/cooking.stackexchange.txt > data/cooking.train
 $ tail -n 3000 data/cooking.stackexchange.txt > data/cooking.test
 ```
 
-## Run the notebook and [open your browser](http://localhost:8888/notebooks/notebook.ipynb):
+## Run the notebook:
 
 ```
 $ jupyter notebook notebook.ipynb
 ```
+[Open your browser](http://localhost:8888/notebooks/notebook.ipynb)
 
 ## Improvements to be done:
 
 - Use (Gensim Phrases)[https://radimrehurek.com/gensim/models/phrases.html#module-gensim.models.phrases]
 - Use bigrams
-- Apply ideas from (this blog)[https://blog.lateral.io/2016/09/fasttext-based-hybrid-recommender/]
-- Apply ideas from (this blog)[https://bbengfort.github.io/tutorials/2016/05/19/text-classification-nltk-sckit-learn.html]
+- Apply ideas from [this blog](https://blog.lateral.io/2016/09/fasttext-based-hybrid-recommender/)
+- Apply ideas from [this blog](https://bbengfort.github.io/tutorials/2016/05/19/text-classification-nltk-sckit-learn.html)
 
 ## Thanks
 
-Some ideas behing the read and write functions, using python generators, comes from (Francesco Bruni code)[https://github.com/brunifrancesco/nltk_base/blob/master/2nd.ipynb]
+Some ideas behing the read and write functions, using python generators, comes from [Francesco Bruni code](https://github.com/brunifrancesco/nltk_base/blob/master/2nd.ipynb)
