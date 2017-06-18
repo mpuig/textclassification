@@ -82,7 +82,7 @@ $ jupyter notebook notebook.ipynb
 
 ## Improvements to be done:
 
-- Use (Gensim Phrases)[https://radimrehurek.com/gensim/models/phrases.html#module-gensim.models.phrases]
+- Use [Gensim Phrases](https://radimrehurek.com/gensim/models/phrases.html#module-gensim.models.phrases)
 - Use bigrams
 - Apply ideas from [this blog](https://blog.lateral.io/2016/09/fasttext-based-hybrid-recommender/)
 - Apply ideas from [this blog](https://bbengfort.github.io/tutorials/2016/05/19/text-classification-nltk-sckit-learn.html)
