@@ -89,4 +89,6 @@ $ jupyter notebook notebook.ipynb
 
 ## Thanks
 
-Some ideas behing the read and write functions, using python generators, comes from [Francesco Bruni code](https://github.com/brunifrancesco/nltk_base/blob/master/2nd.ipynb)
+Some ideas behing the code:
+- read and write functions, using python generators: [Francesco Bruni code](https://github.com/brunifrancesco/nltk_base/blob/master/2nd.ipynb)
+- nltk: [Gensim examples](https://github.com/RaRe-Technologies/gensim/blob/master/docs/notebooks/doc2vec-IMDB.ipynb)
